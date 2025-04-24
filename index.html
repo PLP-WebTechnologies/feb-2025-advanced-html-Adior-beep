@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration and Contact Table</title>
+</head>
+<body>
+    <header>
+        <h1>Registration and Contact Information</h1>
+    </header>
+
+    
+    <section>
+        <h2>My Ordered List</h2>
+        <ol type="I">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+    </section>
+
+    
+    <section>
+        <h2>Sample Image</h2>
+        <img src="https://images.pexels.com/photos/123123/pexels-photo-123123.jpeg" alt="Sample Image" width="500">
+    </section>
+
+    
+    <section>
+        <h2>Contacts</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John kamau</td>
+                    <td>123 Elm St</td>
+                    <td>(555) 123-4567</td>
+                    <td>john@example.com</td>
+                </tr>
+                <tr>
+                    <td>Janet Abalo</td>
+                    <td>456 Oak St</td>
+                    <td>(555) 987-6543</td>
+                    <td>janet@example.com</td>
+                </tr>
+                <tr>
+                    <td>Mayen Bol</td>
+                    <td>789 Pine St</td>
+                    <td>(555) 111-2222</td>
+                    <td>mayen@example.com</td>
+                </tr>
+                <tr>
+                    <td>Adior Mayen</td>
+                    <td>101 Maple St</td>
+                    <td>(555) 333-4444</td>
+                    <td>adior@example.com</td>
+                </tr>
+                <tr>
+                    <td>John mwangi</td>
+                    <td>202 Birch St</td>
+                    <td>(555) 555-6666</td>
+                    <td>John@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <h2>Registration Form</h2>
+        <form action="#" method="POST">
+            
+            <label for="name">Name:</label>
+            <input type="text" id="Adior" name="Adior" placeholder="Adior Mayen" required><br><br>
+
+            <!-- Email field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="mayenadior@gmail.com" required><br><br>
+
+            <!-- Password field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+
+            <!-- Dropdown menu -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="kenya">Kenya</option>
+                <option value="uganda">Uganda</option>
+                <option value="tanzania">Tanzania</option>
+            </select><br><br>
+
+            <!-- Radio buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br><br>
+
+            <!-- Checkboxes -->
+            <label>Interests:</label>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading">Reading</label><br><br>
+
+            <!-- Submit button -->
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Multimedia section with audio and video -->
+    <section>
+        <h2>Multimedia Elements</h2>
+
+        <!-- Audio element -->
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio><br><br>
+
+        <!-- Video element -->
+        <video controls width="600">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+
+</body>
+</html>
